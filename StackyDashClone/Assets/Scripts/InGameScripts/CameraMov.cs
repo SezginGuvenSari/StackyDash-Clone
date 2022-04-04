@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class CameraMov : MonoBehaviour
 {
-   
-    void Start()
-    {
-        
-    }
 
-    
-    void Update()
+    public Transform target;
+    public Vector3 offset;
+
+    public float lerpValue;
+
+    private void LateUpdate()
     {
-        
+        Vector3 desPos = target.position + offset;
+
+        transform.position = Vector3.Lerp(transform.position, desPos, lerpValue);
     }
 }
