@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\MobileControlller\MobileInput.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\CameraMov.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\StackScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
